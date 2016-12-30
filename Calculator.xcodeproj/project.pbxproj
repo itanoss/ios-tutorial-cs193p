@@ -54,14 +54,22 @@
 		D2DA0ACC1E16311900472487 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				D2DA0ACD1E16311900472487 /* AppDelegate.swift */,
+				D2DA0ADF1E16353100472487 /* Supporting Files */,
 				D2DA0ACF1E16311900472487 /* ViewController.swift */,
 				D2DA0AD11E16311900472487 /* Main.storyboard */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		D2DA0ADF1E16353100472487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2DA0ACD1E16311900472487 /* AppDelegate.swift */,
 				D2DA0AD41E16311900472487 /* Assets.xcassets */,
 				D2DA0AD61E16311900472487 /* LaunchScreen.storyboard */,
 				D2DA0AD91E16311900472487 /* Info.plist */,
 			);
-			path = Calculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					D2DA0AC91E16311800472487 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QTETPYN95W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTETPYN95W;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.itanoss.example.Calculator;
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTETPYN95W;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.itanoss.example.Calculator;
